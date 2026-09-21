@@ -1,0 +1,7 @@
+Add the client's real photos here with EXACT filenames (jpg or JPG works — keep lowercase):
+  hero.jpg      — best nail close-up (portrait orientation ideal)
+  portrait.jpg  — technician portrait / working photo
+  work-1.jpg … work-6.jpg — 6 best portfolio shots, square-ish, well lit
+
+The website detects them automatically — no code changes needed.
+Tip: keep each file under ~300KB (phone: export at 1200px longest side, ~80% quality).
