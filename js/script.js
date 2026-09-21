@@ -1,24 +1,24 @@
-// [BUSINESS_NAME] — small interactive behaviours (ES6, no framework).
+// GlamNails by Naledi — small interactive behaviours (ES6, no framework).
 // NQF4-readable: plain functions, commented steps.
 
 // ========== 1. CONFIG — owner edits ONLY this block ==========
 const CONFIG = {
   // WhatsApp number in international format WITHOUT "+" or spaces.
   // Example South Africa: "27821234567". Leave "" until the real number arrives.
-  whatsappNumber: "",
+  whatsappNumber: "27820000000", // MOCK number - replace with real one
   // Default greeting when visitor clicks a generic "Book" button.
-  defaultMessage: "Hi [BUSINESS_NAME]! I would like to book a nail appointment.",
+  defaultMessage: "Hi GlamNails by Naledi! I would like to book a nail appointment.",
   // Real gallery images (auto-detected). Add files with these exact names:
   galleryImages: [
-    "images/work-1.jpg",
-    "images/work-2.jpg",
-    "images/work-3.jpg",
-    "images/work-4.jpg",
-    "images/work-5.jpg",
-    "images/work-6.jpg"
+    "images/work-1.svg",
+    "images/work-2.svg",
+    "images/work-3.svg",
+    "images/work-4.svg",
+    "images/work-5.svg",
+    "images/work-6.svg"
   ],
-  heroImage: "images/hero.jpg",
-  portraitImage: "images/portrait.jpg"
+  heroImage: "images/hero.svg",
+  portraitImage: "images/portrait.svg"
 };
 
 // ========== 2. WhatsApp links ==========
@@ -31,7 +31,7 @@ function wireWhatsAppButtons() {
   document.querySelectorAll("[data-whatsapp-cta]").forEach((el) => {
     const service = el.getAttribute("data-service");
     const msg = service
-      ? "Hi [BUSINESS_NAME]! I would like to book: " + service + "."
+      ? "Hi GlamNails by Naledi! I would like to book: " + service + "."
       : CONFIG.defaultMessage;
     el.setAttribute("href", waLink(msg));
     if (!CONFIG.whatsappNumber) {
@@ -60,7 +60,7 @@ function wireBookingForm() {
     const service = document.getElementById("fService").value;
     const when = document.getElementById("fDate").value.trim();
     const extra = document.getElementById("fMsg").value.trim();
-    let msg = "Hi [BUSINESS_NAME]! I'm " + name + ". I'd like to book: " + service + ".";
+    let msg = "Hi GlamNails by Naledi! I'm " + name + ". I'd like to book: " + service + ".";
     if (when) msg += " Preferred time: " + when + ".";
     if (extra) msg += " Notes: " + extra;
     if (!CONFIG.whatsappNumber) {

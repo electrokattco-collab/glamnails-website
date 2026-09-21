@@ -1,4 +1,4 @@
-/* [BUSINESS_NAME] — custom styles (Bootstrap 5 handles layout/grid).
+/* GlamNails by Naledi — custom styles (Bootstrap 5 handles layout/grid).
    Mobile-first. NQF4-friendly: plain CSS, commented sections. */
 :root {
   --brand: #9d4e5e;
@@ -150,4 +150,10 @@ h1, h2, h3, .brand { font-family: "Playfair Display", Georgia, serif; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
+}
+
+/* MOCK PREVIEW BANNER - delete with the banner before launch */
+.mock-banner {
+  background: #2b2226; color: #ffd9e1; text-align: center;
+  font-size: 0.8rem; padding: 0.4rem 0.8rem;
 }

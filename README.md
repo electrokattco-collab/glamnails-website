@@ -1,8 +1,8 @@
-# [BUSINESS_NAME] — Nail Technician Website
+# GlamNails by Naledi — Nail Technician Website (MOCK PREVIEW)
 
 Single-page, mobile-first website for a nail technician business. Potential customers can see the work, read services, learn about the business, and book via WhatsApp.
 
-> Status: **v1 functional with placeholders** — ready for real business info + photos (see "What I need from you").
+> Status: **Mock preview** — all business details, prices and photos are invented placeholders so the design can be reviewed. Replace everything flagged MOCK before launch.
 
 ## Business purpose
 
@@ -35,10 +35,10 @@ No React, no backend, no database, no build step — open `index.html` and it ru
 ## Project structure
 
 ```text
-index.html
+index.html          ← mock details throughout (search MOCK)
 css/style.css
-js/script.js        ← edit CONFIG.whatsappNumber here
-images/             ← add hero.jpg, portrait.jpg, work-1..6.jpg
+js/script.js        ← CONFIG.whatsappNumber is a MOCK number
+images/             ← 8 mock .svg illustrations (replace with real photos
 README.md
 .gitignore
 ```
