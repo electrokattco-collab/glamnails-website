@@ -10,15 +10,15 @@ const CONFIG = {
   defaultMessage: "Hi GlamNails by Naledi! I would like to book a nail appointment.",
   // Real gallery images (auto-detected). Add files with these exact names:
   galleryImages: [
-    "images/work-1.svg",
-    "images/work-2.svg",
-    "images/work-3.svg",
-    "images/work-4.svg",
-    "images/work-5.svg",
-    "images/work-6.svg"
+    "images/work-1.jpg",
+    "images/work-2.jpg",
+    "images/work-3.jpg",
+    "images/work-4.jpg",
+    "images/work-5.jpg",
+    "images/work-6.jpg"
   ],
-  heroImage: "images/hero.svg",
-  portraitImage: "images/portrait.svg"
+  heroImage: "images/hero.jpg",
+  portraitImage: "images/portrait.jpg"
 };
 
 // ========== 2. WhatsApp links ==========

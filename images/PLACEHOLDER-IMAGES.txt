@@ -1,7 +1,14 @@
-MOCK IMAGES (preview only - replace before launch)
-These .svg files are temporary mock illustrations:
-  hero.svg, portrait.svg, work-1.svg ... work-6.svg
-To go live: send real photos, save them into images/ as
-  hero.jpg, portrait.jpg, work-1.jpg ... work-6.jpg
-and update the file paths in js/script.js CONFIG.
-Keep each photo under ~300KB (1200px longest side, ~80% quality).
+REAL IMAGES — mapping (from "Thandeka site" folder)
+hero.jpg     <- WhatsApp Image 2026-09-20 at 12.21.391.jpeg
+portrait.jpg <- 111111.jpeg
+work-1.jpg   <- WhatsApp Image 2026-09-20 at 12.21.38.jpeg
+work-2.jpg   <- WhatsApp Image 2026-09-20 at 12.21.39.jpeg
+work-3.jpg   <- WhatsApp Image 2026-09-20 at 12.21.40.jpeg
+work-4.jpg   <- WhatsApp Image 2026-09-20 at 12.21.41.jpeg
+work-5.jpg   <- WhatsApp Image 2026-09-20 at 12.21.4111.jpeg
+work-6.jpg   <- WhatsApp Image 2026-09-20 at 12.21.41111.jpeg
+
+Not used yet (alternatives still in "Thandeka site"):
+  qqqq.jpeg, qqqqqqqqqqq.jpeg, qqqqqqqqqqqqqqqqqqq.jpeg,
+  WhatsApp Image 2026-09-20 at 12.17.48.jpeg,
+  WhatsApp Image 2026-09-20 at 12.18.46.jpeg
